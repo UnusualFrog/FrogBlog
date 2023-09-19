@@ -37,11 +37,26 @@ h1 {
     align-items: center;
   }
 
-  #frogIcon {
-    width: 100px;
-    height: 100px;
-    margin: 0 15px;
-    }
+#About {
+  padding-left: 15px;
+}
+
+#frogIcon {
+  width: 100px;
+  height: 100px;
+  margin: 10px 15px;
+  }
+
+#frogIconFlipped {
+  width: 100px;
+  height: 100px;
+  margin: 10px 15px;
+
+  -moz-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+  }
 
 #subtitle {
   text-align: center;
